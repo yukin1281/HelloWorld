@@ -1,4 +1,6 @@
-# Vue工程依赖安装
+# Vue工程化开发流程
+
+https://zhoubichuan.github.io/web-vue2x/base/engine/1.utils.html#_5-npm
 
 ## Vue安装及功能创建
 
@@ -15,3 +17,4 @@
 npm i less less-loader -D
 ```
 
+ 
