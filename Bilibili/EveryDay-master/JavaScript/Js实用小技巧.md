@@ -115,12 +115,6 @@ console.log(round(-1.6));  // -2
 console.log(Math.random().toString(16).slice(2)); // c21f331e6ce2b
 ```
 
-### 取随机颜色
-
-```js
-console.log(Math.random().toString(16).substr(2,8)); //
-```
-
 ### 重复字符串
 
 ```javascript
@@ -183,16 +177,11 @@ var isIE8 = !+"1";
 console.log(isIE8); // false // Chrome 87
 ```
 
-### 获取当前绝对路径
 
-```js
-//CommonJS 
-console.log(__dirname);
-//ECMAScript 
-import path from 'path';
-import { fileURLToPath } from 'url';
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-console.log(__dirname);
+## 每日一题
+
+```
+https://github.com/WindrunnerMax/EveryDay
 ```
 
 ## 参考
