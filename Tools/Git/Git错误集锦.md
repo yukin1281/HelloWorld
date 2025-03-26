@@ -22,3 +22,12 @@ http.https://github.com.proxy=http://127.0.0.1:10809
 git config --global http.https://github.com.proxy http://127.0.0.1:10809
 ```
 
+## 2.RPC failed； HTTP 403 curl 22 The requested URL returned error: 403
+
+### 原因1：
+
+git密码设置永久记住，切换用户时，密码未切换为新用户密码。
+
+解决方案：修改git配置文件git/config，将url中后添加用户名和@符
+
+![image-20250327003039916](./assets/image-20250327003039916.png)
