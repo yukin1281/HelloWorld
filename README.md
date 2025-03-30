@@ -1,10 +1,16 @@
-# HelloWorld
+# 前端导航
 
-记录前端学习笔记
+## HTML
 
-JavaScript
+## CSS
 
-```js
-console.log('Hello World');
-```
+## JavaScript
+
+[数据类型](./03_JavaScript/JavaScript基础/数据类型.md)
+
+
+
+
+
+
 
